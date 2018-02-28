@@ -1,4 +1,4 @@
-//Author: yafu Deng
+//Author: Yafu Deng
 //CPSC 121 Lab 4
 //2/27/2018
 
@@ -9,13 +9,13 @@ using namespace std;
 If information is returned from a function (ie NOT a void function), then that information should be displayed outside of the function. 
 Any information passed as an argument (in the parenthesis) should be obtained outside of the function and passed in when called.
     a) void hello()
-      Will simply display the text ¡°Hello, world!¡±
+      Will simply display the text Â¡Â°Hello, world!Â¡Â±
     b) void printBetween(int a, int b)
       Will print all numbers between a and b, including a and b, counting up
-      E.G. a = 3, b = 6, ouput = ¡°3 4 5 6¡± (or can use newlines)
+      E.G. a = 3, b = 6, ouput = Â¡Â°3 4 5 6Â¡Â± (or can use newlines)
       Order is unassumed, but data is displayed counting up
     c) bool isPrime(int n)
-      Returns true to indicate n is prime, or false to indicate it¡¯s not
+      Returns true to indicate n is prime, or false to indicate itÂ¡Â¯s not
       A number  n is prime if it is greater than 1 and not divisible by any of the numbers x in the range 1 < x < n
     d) int leastCommonDenominator(int a, int b)
       Returns the smallest number that is divisible by both a and b
